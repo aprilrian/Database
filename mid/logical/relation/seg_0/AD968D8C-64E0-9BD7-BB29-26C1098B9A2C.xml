@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="AD968D8C-64E0-9BD7-BB29-26C1098B9A2C">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:21:18 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<sourcePk>EA860CF6-56B9-6094-D130-A31744BD4D0E</sourcePk>
+<targetPk>0D32312C-5C4F-A2B2-748F-BC8BDDD4390B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Disewa</nameOnSource>
+<nameOnTarget>Menyewa</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BE31F6AF-796B-3BAD-5750-7F79D498F554</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AEEE8BCD-E8FD-A8D7-9F34-C623586BDA7A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

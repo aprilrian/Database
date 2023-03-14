@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="C2159C5F-6DE4-0CBD-12A2-9ACDB5A7FB1C">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:29:53 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<sourcePk>3373B8D1-A4E0-F86A-281D-456B557358BD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Mengawasi</nameOnSource>
+<nameOnTarget>Diawasi</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>045A63DE-9BEC-9EA3-9565-2FE4B74CC83C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BE31F6AF-796B-3BAD-5750-7F79D498F554</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

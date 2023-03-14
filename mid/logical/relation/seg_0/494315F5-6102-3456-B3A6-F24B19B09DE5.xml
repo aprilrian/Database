@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="494315F5-6102-3456-B3A6-F24B19B09DE5">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:15:29 UTC</createdTime>
+<comment><![CDATA[MANAGER]]></comment>
+<commentInRDBMS><![CDATA[MANAGER]]></commentInRDBMS>
+<notes><![CDATA[MANAGER]]></notes>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<targetPk>3373B8D1-A4E0-F86A-281D-456B557358BD</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Dikelola</nameOnSource>
+<nameOnTarget>MANAGER</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>045A63DE-9BEC-9EA3-9565-2FE4B74CC83C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>045A63DE-9BEC-9EA3-9565-2FE4B74CC83C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

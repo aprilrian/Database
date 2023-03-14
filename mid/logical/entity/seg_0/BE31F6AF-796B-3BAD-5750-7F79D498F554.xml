@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE31F6AF-796B-3BAD-5750-7F79D498F554" name="PROPERTI">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:00:25 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Properti" id="E57F901D-0D97-FA52-AA95-D79C7A235814">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:00:40 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat" id="E27AEA7F-DD10-C6A6-6E40-0BEC95A308D2">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:01:05 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jenis" id="A967CCFF-0173-AC5D-60E8-D66CF84541E4">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:01:19 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pemilik" id="531C83AF-9D63-F19F-B845-A027778798A5">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:19:25 UTC</createdTime>
+<generatorID>B24A63A5-6310-9DC8-9C83-BC9E39CE8942</generatorID>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<referedAttribute>21AFF356-0159-373C-CB03-F3C9419F820B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Penyewa" id="A43874BD-7668-43A2-F5F8-EA04CFA64368">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:21:38 UTC</createdTime>
+<generatorID>AD968D8C-64E0-9BD7-BB29-26C1098B9A2C</generatorID>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<referedAttribute>A29BED37-EB4C-8471-9962-D67C5B9A15F4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Karyawan" id="51723914-2C6B-BD5B-B2B3-6B8FB42A322B">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:30:11 UTC</createdTime>
+<generatorID>C2159C5F-6DE4-0CBD-12A2-9ACDB5A7FB1C</generatorID>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<referedAttribute>24E6F9AF-0207-7BA0-5D8D-BED587195BAD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA860CF6-56B9-6094-D130-A31744BD4D0E" name="PROPERTI PK">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:01:04 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E57F901D-0D97-FA52-AA95-D79C7A235814</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

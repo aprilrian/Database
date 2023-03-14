@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEEE8BCD-E8FD-A8D7-9F34-C623586BDA7A" name="PENYEWA">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:01:52 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Penyewa" id="A29BED37-EB4C-8471-9962-D67C5B9A15F4">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:02:42 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Atas Nama" id="E935A1E9-F721-1ECC-0BD9-EEACB8E33387">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:25:33 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="FEB8DD4A-1C6A-4AF4-F3A0-4BD4A02AE369">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:25:27 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat" id="5FC0A222-A9E7-CDFA-A773-54C9C23E4362">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:02:11 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat Email" id="D269CEBB-F1B5-8F02-2265-ED1AEB309CEE">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:02:23 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor Telepon" id="215F197E-BAE7-2229-C32B-1C2383DB9EF7">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:02:32 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D32312C-5C4F-A2B2-748F-BC8BDDD4390B" name="PENYEWA PK">
+<createdBy>XP</createdBy>
+<createdTime>2022-10-13 03:02:49 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="D1432A5E-F668-75DE-4E73-E9205029F8D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A29BED37-EB4C-8471-9962-D67C5B9A15F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
