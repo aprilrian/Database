@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="844CDCF2-2E17-BD56-08F5-11B483A90C34" name="ARTIS">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:32:57 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_artis" id="3BC23F42-BD72-E6CB-BFE9-7023396A8510">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:03 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_artis" id="417731DA-D543-F6B7-4E8F-56B6FD93242B">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:09 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipe_artis" id="ACDE736E-E837-2294-1C65-A1B899D260F3">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:11 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jadwal_tampil" id="AC25FABB-B5BE-5123-234F-DC2AD810FB7A">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:15 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="B342FF1D-686A-BDE8-F517-C54F4CA1ABF3">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:20 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_manager" id="3F3D8EDC-D7A7-B872-E537-4A103C1BF804">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:23 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_debut" id="4655727B-1D52-BE31-4B7F-CA575D035A6B">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:26 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_konser" id="CED716D2-BA7F-C606-7A80-1812E1044E22">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:42:49 UTC</createdTime>
+<generatorID>D01FE049-76B4-EECD-B410-BF7DE743DDC2</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BB6D8A8B-951C-43EA-B1B2-78D743C8740B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE2FA168-DBC8-69F8-196E-BC51F49754C5" name="ARTIS PK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:41 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3BC23F42-BD72-E6CB-BFE9-7023396A8510</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

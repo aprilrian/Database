@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD9D6425-BE6F-AC4D-4A4A-D03231DB617C" name="SECTION">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:01 UTC</createdTime>
+<generatorID>01502A1F-9BCC-1A1A-12FA-8D9214041E93</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nama_section" id="E9E2D136-1606-6760-6EE1-48A7CEAD1514">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:01 UTC</createdTime>
+<generatorID>D1D0D120-9F6A-5E99-BC4D-CBB2DB00A1F1</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_kursi" id="2411D88A-968D-AEE0-9E13-8328F7601259">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:01 UTC</createdTime>
+<generatorID>C6469284-6C1A-D0A2-3B48-2B2B340326F6</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HALL_no_hall" id="E88817A2-F4BF-8545-0365-38E51F5B0D2B">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:01 UTC</createdTime>
+<generatorID>8553E74D-25A7-F26A-EE74-EE1E7448C4A0</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33416F8C-7100-D3F4-0254-E9B2E5FFB040" referredColumn="A889AED9-73D3-557E-F316-836F3987EBD7"/>
+</associations>
+</Column>
+<Column name="TIKET_ID_tiket" id="05441846-59AA-7B4E-8B38-1F88F2829DB8">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:01 UTC</createdTime>
+<generatorID>E5B70985-0BCD-B65E-C153-7D01BA02AE82</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1826E4DF-1A5D-CDD1-6E7D-F4CD8A5392C1" referredColumn="C405032E-C4F8-11E9-89E1-EAD681EACC35"/>
+</associations>
+</Column>
+<Column name="SECTION_ID" id="2F7A2764-D297-9612-F250-AD1655BF524B">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1D55E0C-FF83-2650-2045-ADE7538D16D2" name="SECTION_PK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2F7A2764-D297-9612-F250-AD1655BF524B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B41D9AE1-8C92-EFA3-20C8-5C8421F2C932" name="SECTION__IDX">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>44B4AA2B-55E4-90D4-B3D0-9FADBEC20CA4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="05441846-59AA-7B4E-8B38-1F88F2829DB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E897867-9F98-16F7-31D6-EBA6B41ED1CF" name="SECTION_HALL_FK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<generatorID>55E19081-5A57-9873-A474-A020D8F30DD9</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E88817A2-F4BF-8545-0365-38E51F5B0D2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E25B7373-8192-8433-90D2-73C008171AA1" name="SECTION_TIKET_FK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<generatorID>44B4AA2B-55E4-90D4-B3D0-9FADBEC20CA4</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05441846-59AA-7B4E-8B38-1F88F2829DB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

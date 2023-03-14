@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01502A1F-9BCC-1A1A-12FA-8D9214041E93" name="SECTION">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:46 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nama_section" id="D1D0D120-9F6A-5E99-BC4D-CBB2DB00A1F1">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:33:56 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_kursi" id="C6469284-6C1A-D0A2-3B48-2B2B340326F6">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:34:03 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_hall" id="8553E74D-25A7-F26A-EE74-EE1E7448C4A0">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:43:41 UTC</createdTime>
+<generatorID>55E19081-5A57-9873-A474-A020D8F30DD9</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FFB6822C-9AC3-1DBC-A9D0-F2D027981B44</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_tiket" id="E5B70985-0BCD-B65E-C153-7D01BA02AE82">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:44:16 UTC</createdTime>
+<generatorID>44B4AA2B-55E4-90D4-B3D0-9FADBEC20CA4</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<referedAttribute>C0B55E60-7E57-304F-2E8E-CA0DC68B86CA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="624902EA-2EC3-7647-2E08-964CBDCE9FD0" name="HALL">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:34:25 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_hall" id="FFB6822C-9AC3-1DBC-A9D0-F2D027981B44">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:34:31 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_hall" id="84F7B1C4-DC07-DF05-1206-121D3FF1CF5D">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:34:35 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat_hall" id="6CA8F9EA-0ABE-C52B-347D-8FC96190FC65">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:34:37 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jadwal_opengate" id="675093E1-270A-1A4B-93C5-26A209969CD6">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:34:40 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_konser" id="56C15689-7C24-1173-8D14-75A9E033C359">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:43:11 UTC</createdTime>
+<generatorID>46CF78CA-614C-E8D2-9EB1-4B5AE5C427EA</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<referedAttribute>BB6D8A8B-951C-43EA-B1B2-78D743C8740B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBF67EB5-3004-FEB4-7D36-EF28140674AB" name="HALL PK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:34:53 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<engineerTo>
+<item key="189BC6F8-FC66-CE1B-9176-C47704678FFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFB6822C-9AC3-1DBC-A9D0-F2D027981B44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

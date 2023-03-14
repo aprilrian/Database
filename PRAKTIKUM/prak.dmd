@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="prak" id="43040B65-E7E7-0F65-6842-0D8F676895D9" version="3.5">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:25:49 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>43040B65-E7E7-0F65-6842-0D8F676895D9</designId>
+</OSDM_Design>

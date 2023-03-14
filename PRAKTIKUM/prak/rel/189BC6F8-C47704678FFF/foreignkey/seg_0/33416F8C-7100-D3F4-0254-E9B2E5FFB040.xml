@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33416F8C-7100-D3F4-0254-E9B2E5FFB040" containerWithKeyObject="FD9D6425-BE6F-AC4D-4A4A-D03231DB617C" localFKIndex="7E897867-9F98-16F7-31D6-EBA6B41ED1CF" name="SECTION_HALL_FK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<generatorID>55E19081-5A57-9873-A474-A020D8F30DD9</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<referredTableLongName>HALL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30BB5F1C-AA54-7E5D-E3AB-EBD58F10C496</referredTableID>
+<keyObject>91B8BABA-74F6-3C1C-EC75-9B276489A2EB</keyObject>
+<referredKeyID>91B8BABA-74F6-3C1C-EC75-9B276489A2EB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>no_hall</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

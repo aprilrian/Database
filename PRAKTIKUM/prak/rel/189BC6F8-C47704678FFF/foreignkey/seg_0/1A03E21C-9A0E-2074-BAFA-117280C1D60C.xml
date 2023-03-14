@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A03E21C-9A0E-2074-BAFA-117280C1D60C" containerWithKeyObject="30BB5F1C-AA54-7E5D-E3AB-EBD58F10C496" localFKIndex="C93F1442-488F-49C6-5A5B-1C76E07AD2CA" name="HALL_KONSER_FK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<generatorID>46CF78CA-614C-E8D2-9EB1-4B5AE5C427EA</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<referredTableLongName>KONSER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78D02A35-8075-DDC1-2D12-9CE609FE7DF8</referredTableID>
+<keyObject>8FF946DD-FC5D-C96B-8D49-5F912ECC6CAD</keyObject>
+<referredKeyID>8FF946DD-FC5D-C96B-8D49-5F912ECC6CAD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_konser</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="972A195D-5FA4-895B-24F7-DD624F48D204" name="ARTIS">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>844CDCF2-2E17-BD56-08F5-11B483A90C34</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_artis" id="99828AE2-CCCB-4B61-9D45-43001E7CAB6F">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>3BC23F42-BD72-E6CB-BFE9-7023396A8510</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_artis" id="5C98A22D-F924-9FB0-6DD9-FDB2979D9FD7">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>417731DA-D543-F6B7-4E8F-56B6FD93242B</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipe_artis" id="B4AF4B7E-B910-4051-710C-471B19089515">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>ACDE736E-E837-2294-1C65-A1B899D260F3</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jadwal_tampil" id="89E01BFA-199F-1A87-295A-E0DFE416C0BC">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>AC25FABB-B5BE-5123-234F-DC2AD810FB7A</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="9B85BBC7-D788-CA3A-1EFC-C72347423AD4">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>B342FF1D-686A-BDE8-F517-C54F4CA1ABF3</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_manager" id="93BF98E8-EEDE-B9E4-C906-D0BF6AF26BB4">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>3F3D8EDC-D7A7-B872-E537-4A103C1BF804</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_debut" id="275BCFA5-F969-A9DA-C1D0-B87E460E4706">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>4655727B-1D52-BE31-4B7F-CA575D035A6B</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KONSER_ID_konser" id="0A98ECC5-EFA6-9ECC-E4A9-A6789DC805D6">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>CED716D2-BA7F-C606-7A80-1812E1044E22</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06A2D429-7237-4CFE-8F83-71E8CCDD77D2" referredColumn="569FFDFC-2050-C640-F531-8375F5576A83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A596E763-C45A-570A-0F55-740C4C3CE565" name="ARTIS_PK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>CE2FA168-DBC8-69F8-196E-BC51F49754C5</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99828AE2-CCCB-4B61-9D45-43001E7CAB6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="531938B9-8417-48AC-4743-A86A96F2B3EB" name="ARTIS_KONSER_FK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<generatorID>D01FE049-76B4-EECD-B410-BF7DE743DDC2</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A98ECC5-EFA6-9ECC-E4A9-A6789DC805D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

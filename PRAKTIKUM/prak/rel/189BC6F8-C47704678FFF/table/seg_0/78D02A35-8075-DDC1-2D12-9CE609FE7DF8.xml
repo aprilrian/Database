@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78D02A35-8075-DDC1-2D12-9CE609FE7DF8" name="KONSER">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>519C8EB3-3F48-4454-257E-0E41A613BD06</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_konser" id="569FFDFC-2050-C640-F531-8375F5576A83">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>BB6D8A8B-951C-43EA-B1B2-78D743C8740B</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_konser" id="B75FCD97-B98E-2613-9E28-A1E4B334CAD6">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>D9124126-FDAA-AAB0-6C28-7353E1C960F5</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_konser" id="AEFC6FC2-BA69-8AED-D7C3-77C6924D2704">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>C3C86A14-866E-10D6-D66E-67C2A7EDCD8C</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="waktu_konser" id="4B108E74-59B3-2A0C-8F82-FAC096CFC24D">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>805D4E02-320D-25E7-AAB6-FAA7BD84BBD2</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HALL_no_hall" id="111F5170-FFA9-FB1E-C9BC-AF9BC95EB22B">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>47C6F9C1-98DA-FFCD-0971-BC7DFD197490</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="508E2222-E07B-D67B-C14F-3C1DDA6475DE" referredColumn="A889AED9-73D3-557E-F316-836F3987EBD7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FF946DD-FC5D-C96B-8D49-5F912ECC6CAD" name="KONSER_PK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>EF3D1FDA-0D72-F4E3-247E-3FD31163B0CC</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="569FFDFC-2050-C640-F531-8375F5576A83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E63CF6A-29B7-AB0D-DB06-0977EA4E686D" name="KONSER__IDX">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>46CF78CA-614C-E8D2-9EB1-4B5AE5C427EA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="111F5170-FFA9-FB1E-C9BC-AF9BC95EB22B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B4DF254-BD4C-133B-74D3-235B04512434" name="KONSER_HALL_FK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<generatorID>46CF78CA-614C-E8D2-9EB1-4B5AE5C427EA</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111F5170-FFA9-FB1E-C9BC-AF9BC95EB22B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

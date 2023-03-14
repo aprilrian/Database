@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30BB5F1C-AA54-7E5D-E3AB-EBD58F10C496" name="HALL">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>624902EA-2EC3-7647-2E08-964CBDCE9FD0</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_hall" id="A889AED9-73D3-557E-F316-836F3987EBD7">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>FFB6822C-9AC3-1DBC-A9D0-F2D027981B44</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_hall" id="EB512EEF-C774-C107-CBE7-28A22B469242">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>84F7B1C4-DC07-DF05-1206-121D3FF1CF5D</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat_hall" id="76F68F61-24D2-5556-DF42-C94E04AFCEED">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>6CA8F9EA-0ABE-C52B-347D-8FC96190FC65</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jadwal_opengate" id="422F2325-2DAF-E1E6-1A69-B6274B1E92A3">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>675093E1-270A-1A4B-93C5-26A209969CD6</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KONSER_ID_konser" id="A5C5600C-C318-C8DB-D8F3-E7EA0E834ADF">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>56C15689-7C24-1173-8D14-75A9E033C359</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A03E21C-9A0E-2074-BAFA-117280C1D60C" referredColumn="569FFDFC-2050-C640-F531-8375F5576A83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91B8BABA-74F6-3C1C-EC75-9B276489A2EB" name="HALL_PK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:00 UTC</createdTime>
+<generatorID>CBF67EB5-3004-FEB4-7D36-EF28140674AB</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A889AED9-73D3-557E-F316-836F3987EBD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86157675-1BD0-3C32-B5D5-B01EDF1A3D17" name="HALL__IDX">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<ownerDesignName>prak</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>46CF78CA-614C-E8D2-9EB1-4B5AE5C427EA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A5C5600C-C318-C8DB-D8F3-E7EA0E834ADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C93F1442-488F-49C6-5A5B-1C76E07AD2CA" name="HALL_KONSER_FK">
+<createdBy>XP</createdBy>
+<createdTime>2022-09-30 01:55:03 UTC</createdTime>
+<generatorID>46CF78CA-614C-E8D2-9EB1-4B5AE5C427EA</generatorID>
+<ownerDesignName>prak</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5C5600C-C318-C8DB-D8F3-E7EA0E834ADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
