@@ -1,0 +1,3 @@
+3001,"Fort Street","2969","New Orleans","Louisiana",2
+3002,"White Avenue","2834","Long Island City","New York",1
+3003,"Columbia Road","460","Georgetown","Delaware",3

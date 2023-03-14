@@ -1,0 +1,11 @@
+load data local infile 'C:\\Users\\XP\\Documents\\UNDIP\\MATA KULIAH\\SMT 3\\PRAKTIKUM\\Basis Data\\Post-UTS\\8\\isiruang.txt'
+into table isiruang
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\r\n'
+;
+
+create table isiruang(
+noruang char(4) not null,
+nobarang int unsigned not null,
+jumlah int unsigned not null);

@@ -1,0 +1,3 @@
+"LU","Luxembourg",2
+"SG","Singapore",1
+"EG","Egypt",3

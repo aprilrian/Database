@@ -1,0 +1,5 @@
+208002,"Kursi Kuliah","BMOM",2008,"Unit"
+210002,"Kursi Kuliah","Hibah",2010,"Unit"
+211002,"Kursi Kuliah","PNBP",2011,"Unit"
+509001,"Komputer Desktop","PNBP",2009,"Unit"
+509002,"Printer Laser","PNBP",2009,"Unit"
